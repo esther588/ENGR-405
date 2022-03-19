@@ -6,7 +6,6 @@
 
 clear
 
-%Create the complex numbers
 x1 = (3*pi)/4;
 const1 = 2*sqrt(2);
 z1 = const1*exp(1j*x1);
@@ -19,7 +18,7 @@ z1Rect = const1*(cos(x1)+1j*sin(x1));
 z2Rect = const2*(cos(x2)+1j*sin(x2));
 
 %Display the results
-fprintf("Z1 in rectangular form: ");
+fprintf("Z1 in rectangular form: %f");
 disp(z1Rect);
 fprintf("Z2 in rectangular form: ");
 disp(z2Rect);
