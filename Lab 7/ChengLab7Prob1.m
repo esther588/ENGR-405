@@ -19,7 +19,7 @@ for i = cD
             q = calcFlowRate(i, j, k);
 
             %Print the input and output values for the flow rate function
-            fprintf("Value of Q at Cd: %.3f, h: %.2f and theta: %d is %f.\n", i, j, k, q);
+            fprintf("Value of Q at Cd: %f, h: %f (m) and theta: %d (degrees) is %f (m^3/s)\n", i, j, k, q);
         end
     end
 end
