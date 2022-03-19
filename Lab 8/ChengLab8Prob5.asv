@@ -6,8 +6,7 @@
 clear
 
 %Open the file to real
-filename = '/Users/esthercheng/desktop/ENGR-405/Lab 8/Data2.xlsx';
-fid = fopen(filename, 'r');
+fid = fopen('/Users/esthercheng/desktop/ENGR-405/Lab 8/Data2.xlsx', 'r');
 
 if fid == -1
    disp('File open not successful')
