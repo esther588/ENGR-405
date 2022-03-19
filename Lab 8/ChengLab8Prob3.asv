@@ -31,14 +31,5 @@ fprintf("R(s): ");
 disp(rS);
 
 %Create polynomial vector
-polynomial = [-2+1j*4, -2-1j*4, -3, -3, -5];
-
-%Find the coefficients and roots
-w = poly(polynomial);
-wRoots = roots(w);
-
-%Display results
-fprintf("Coefficients: ");
-disp(w);
-fprintf("Roots: ");
-disp(wRoots);
+poly = [-2+1j*4, -2-1j*4, -3, -3, -5];
+w = poly(qS);
