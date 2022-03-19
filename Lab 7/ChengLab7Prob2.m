@@ -11,7 +11,7 @@ clear
 zA = -3 + j * 2;
 zB = -1 + j;
 z1 = 2*zA - zB;
-z2 = -2 * zA;
+z2 = -zA;
 z3 = conj(zB);
 z4 = zA * exp(j * (pi / 2));
 z5 = zA * zB;
