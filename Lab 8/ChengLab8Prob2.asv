@@ -31,5 +31,5 @@ z4Exp = z4Mag*exp(1j*theta4);
 %Display the results
 fprintf("Z3 in exponential form: ");
 disp(z3Exp);
-fprintf("Z4 in exponential form: ");
+fprintf("Z4 in rectangular form: ");
 disp(z4Exp);
