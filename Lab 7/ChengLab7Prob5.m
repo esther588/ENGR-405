@@ -14,6 +14,7 @@ nouns = {'sushi', 'rocks', 'staples'};
 %Prompt user for how many sentences they would like
 numSentences = input('Enter how many sentences you would like: ');
 
+%Use a for loop to print the number of desired random sentences
 for i = 1:numSentences
     %Pick out random words from the cell arrays, form a random sentence and print out
     sentence{1} = names{randi(numel(names))};
