@@ -4,7 +4,7 @@
 % ENGR 405
 % ChengLab7Problem2
 
-load("/Users/esthercheng/desktop/ENGR 405/aveTemp.dat")
+load("/Users/esthercheng/desktop/ENGR 405/Lab 7/aveTemp.dat")
 [row, col] = size(aveTemp);
 
 %Create three subplots and plot the data for each location
