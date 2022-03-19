@@ -13,7 +13,8 @@ randInt = randi([1000, 2000]);
 fieldWidth = input('Please enter a field width: ');
 
 %create a string where the value is the field width entered by the user
-result = sprintf("The random number is %*d\n", fieldWidth, randInt);
+result = sprintf("The random number is %%%dd\\n", fieldWidth);
 
 %Pass the string to display in the command window
-fprintf("%s", result);
+fprintf(result);
+fprintf("%*d\n", fieldWidth, randInt);
