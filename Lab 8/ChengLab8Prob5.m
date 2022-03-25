@@ -1,4 +1,5 @@
-%This script determins the components of the Partial Fraction Expansion
+%This script determines the components of the Partial Fraction Expansion
+
 % EstherCheng
 % ENGR 405
 % ChengLab8Problem4
