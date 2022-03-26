@@ -12,4 +12,4 @@ num = input('Enter a number: ');
 fibNum = fib(num);
 
 %Print the result
-fprintf("The Fibonacci number is %d", fibNum);
+fprintf("The Fibonacci number is %d\n", fibNum);
