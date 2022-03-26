@@ -7,8 +7,7 @@ function fibNum = fib(n)
 if n == 0 || n == 1
     %If n is 0 or 1, initialize fibNum as n
     fibNum = n;
-else
-    %Recursively call the function
-    fibNum = fib(n-2) + fib(n-1);
+elseif
+    
 end
 end
