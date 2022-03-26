@@ -1,4 +1,4 @@
-%This script creates the given anonymous functions and saves them into a
+%This script creates the given anonymous functions and stores them into a
 %mat file
 
 % EstherCheng
