@@ -13,6 +13,6 @@ indices = find(t >= -0.5 & t <= 0.5);
 y = zeros(1, length(t));
 
 %Change all elements at specific indices to 1
-y(indices) = 1;
+y(indices) = ones(1);
 
 end
