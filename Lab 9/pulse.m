@@ -1,7 +1,7 @@
 function y = pulse(t)
-%pulse receives a vector and finds all elements that are less than 
-% or equal to -0.5 and greater than or equal to 0.5, changing them to 1. 
-% For all other elements, they will be changed to 0
+%pulse receives a vector and finds all elements that are less than or equal 
+% to -0.5 and greater than or equal to 0.5, changing them to 1. For all other 
+% elements, they will be changed to 0
 %Format of Call: pulse(t)
 %Returns the vector y
 
