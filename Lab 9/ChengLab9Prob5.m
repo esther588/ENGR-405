@@ -15,7 +15,7 @@ cis = @(x) exp(1j*x);
 cisd = @(x) cis(dr2(x));
 angled = @(x) r2d(angle(x));
 
-%Create mat file and saves all equations into it
+%Create mat file and save all equations into it
 mat_file = matfile('equations.mat','Writable',true);
 save('equations.mat','d2r');
 save('equations.mat','r2d');
