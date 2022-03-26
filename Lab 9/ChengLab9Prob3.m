@@ -5,6 +5,9 @@
 % ENGR 405
 % ChengLab9Problem3
 
+clc
+clear
+
 %Initialize vector over the range of -3 and 3 with 401 elements
 t = linspace(-3, 3, 401);
 

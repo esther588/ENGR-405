@@ -5,6 +5,9 @@
 % ENGR 405
 % ChengLab9Problem4
 
+clc
+clear
+
 %Prompt user for a value
 num = input('Enter a number: ');
 
