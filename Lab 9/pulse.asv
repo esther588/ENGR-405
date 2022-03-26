@@ -8,11 +8,8 @@ function y = pulse(t)
 %Locate the indices where −0.5 ≤ t ≤0.5
 indices = find(t >= -0.5 & t <= 0.5);
 
-%Use the zeros function to create vector y with the same number of elements
-%as t
+%Use the zeros function to create vector y with
 y = zeros(1, length(t));
-
-%Change all elements are certain indices to 1
 y(indices) = 1;
 
 end
