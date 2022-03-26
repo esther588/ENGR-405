@@ -4,3 +4,6 @@
 % EstherCheng
 % ENGR 405
 % ChengLab9Problem3
+
+%Create vector over the range of -3 and 3 with 401 elements
+p = linspace(-3, 3, 401);
