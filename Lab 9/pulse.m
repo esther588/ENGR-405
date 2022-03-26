@@ -12,7 +12,7 @@ indices = find(t >= -0.5 & t <= 0.5);
 %as t
 y = zeros(1, length(t));
 
-%Change all elements are certain indices to 1
+%Change all elements at specific indices to 1
 y(indices) = 1;
 
 end
