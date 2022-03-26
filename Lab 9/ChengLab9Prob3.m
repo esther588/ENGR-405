@@ -6,4 +6,20 @@
 % ChengLab9Problem3
 
 %Create vector over the range of -3 and 3 with 401 elements
-p = linspace(-3, 3, 401);
+t = linspace(-3, 3, 401);
+
+y1 = pulse(t/4);
+y2 = pulse(t/4).*sin(4*pi*t);
+
+%Plot the functions as two vertically oriented subplots
+subplot(2, 1, 2);
+plot(t, y1);
+grid on;
+xlabel('t');
+ylabel('y1');
+
+subplot(2, 1, 2);
+plot(t, y2);
+grid on;
+xlabel('t');
+ylabel('y2');
