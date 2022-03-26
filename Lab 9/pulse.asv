@@ -1,0 +1,10 @@
+function y = pulse(t)
+%geoSer receives a value for r and calculate the sum of the geometric
+%series. If a second argument is passed to the function, it is the value 
+% of n; otherwise, a random integer is generated
+%Format of Call: pulse(t)
+%Returns the vector y
+
+indices = find(t >= -0.5 && t <= 0.5);
+
+end
