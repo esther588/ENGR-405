@@ -9,11 +9,11 @@
 t = linspace(-3, 3, 401);
 
 %Initialize functions by calling pulse function
-y1 = pulse(t/4);
+y1 = pulse(t./4);
 y2 = pulse(t./4).*sin(4*pi*t);
 
 %Plot the functions as two vertically oriented subplots
-subplot(2, 1, 2);
+subplot(2, 1, 1);
 plot(t, y1);
 grid on;
 xlabel('t');
