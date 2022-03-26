@@ -1,6 +1,0 @@
-%Create the anonymous functions
-d2r = @(x) (x.*pi)./180;
-r2d = @(x) (x*180)./pi;
-cis = @(x) exp(1j*x);
-cisd = @(x) (x.*pi)./180;
-angled = @(x) (x.*pi)./180;
