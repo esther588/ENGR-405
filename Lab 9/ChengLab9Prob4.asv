@@ -9,7 +9,4 @@
 num = input('Enter a number: ');
 
 %Call fib function to get Fibonacci number
-fibNum = fib(num);
-
-%Print the result
-fprintf("The Fibonacci number is %d", fibNum);
+fibNum = 
