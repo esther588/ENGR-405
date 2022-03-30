@@ -4,11 +4,11 @@ function fibNum = fib(n)
 %Format of Call: fib(n)
 %Returns the value that is the nth Fibonacci number
 
-if n == 0
-    %If n is 0, initialize fibNum as 0
+if n == 1
+    %If n is 1, initialize fibNum as 0
     fibNum = 0;
-elseif n == 1 || n == 2
-    %If n is 1 or 2, initialize fibNum as 1
+elseif n == 2
+    %If n is 2, initialize fibNum as 1
     fibNum = 1;
 else
     %Recursively call the function
