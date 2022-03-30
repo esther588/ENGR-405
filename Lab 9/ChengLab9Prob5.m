@@ -16,9 +16,10 @@ cisd = @(x) cis(dr2(x));
 angled = @(x) r2d(angle(x));
 
 %Create mat file and save all equations into it
-mat_file = matfile('equations.mat','Writable',true);
-save('equations.mat','d2r', '-append');
-save('equations.mat','r2d', '-append');
-save('equations.mat','cis', '-append');
-save('equations.mat','cisd', '-append');
-save('equations.mat','angled', '-append');
+fileName = 'equations.mat';
+mat_file = matfile(fileName,'Writable',true);
+save(fileName,'d2r', '-append');
+save(fileName,'r2d', '-append');
+save(fileName,'cis', '-append');
+save(fileName,'cisd', '-append');
+save(fileName,'angled', '-append');
