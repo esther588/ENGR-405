@@ -13,7 +13,7 @@ numTerms = input('Enter the number of terms: ');
 
 fprintf("The Fibonacci sequence of numbers is \n");
 
-for i=1:numTerms
+for i=0:numTerms-1
     %Call fib function to get Fibonacci number
     fibNum = fib(i);
 
