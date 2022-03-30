@@ -11,7 +11,7 @@ if nargin == 1
     n = randi([5, 30]);
 else
     %Initializes n to first element of varargin
-    n = varargin(1);
+    n = varargin{1};
 end
 
 gs = 1 + r;
