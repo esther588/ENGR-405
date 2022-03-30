@@ -9,10 +9,14 @@ clc
 clear
 
 %Prompt user for a value
-num = input('Enter a number: ');
+numTerms = input('Enter the number of terms: ');
 
-%Call fib function to get Fibonacci number
-fibNum = fib(num);
+fprintf("The Fibonacci sequence of numbers is \n");
 
-%Print the result
-fprintf("The Fibonacci number is %d\n", fibNum);
+for i=1:numTerms
+    %Call fib function to get Fibonacci number
+    fibNum = fib(i);
+
+    %Print the result
+    fprintf("%d ", fibNum);
+end
